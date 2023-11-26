@@ -18,6 +18,10 @@ def create_timeline():
         books = [(entry[j], int(entry[j+1])) for j in range(3, len(entry), 2)]
         draw_author_axis(ax, author_name, birth_year, death_year, books, i, minimum)
     ax.set_xlim(minimum, 2025)
+    ax.axvline(x=1914, color='red', linestyle='--', linewidth=1)
+    ax.axvline(x=1918, color='green', linestyle='--', linewidth=1)
+    ax.axvline(x=1939, color='red', linestyle='--', linewidth=1)
+    ax.axvline(x=1945, color='green', linestyle='--', linewidth=1)
     plt.grid(axis='x')
     plt.show()
 def draw_author_axis(ax, author_name, birth_year, death_year, books, i, minimum):
