@@ -1,5 +1,6 @@
-# Timeline maker
+# Literature timeline maker
 This program creates a timeline that clearly shows the authors (including date of birth and death) and their written works (including date of publication).
+Plus it shows World War I and World War II intervals (red and green dashed lines)
 # What the input should look like
 On each line
   - **Author's name** 
@@ -32,7 +33,6 @@ Václav Havel, 1936, 2011, Audience, 1975
 ```
 # What does the output look like
 
-![Python 3 11 26 11 2023 14_24_54](https://github.com/Otasmacour/Timeline-maker/assets/111227700/cf827fe0-78ea-4bdd-ae56-14f89a85f003)
-
+![Python 3 11 26 11 2023 20_29_39](https://github.com/Otasmacour/Literature-Timeline-maker/assets/111227700/b778116d-7468-4a56-b7b6-3c4006a0ff13)
 
 
