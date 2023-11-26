@@ -1,6 +1,6 @@
 # Literature timeline maker
 This program creates a timeline that clearly shows the authors (including date of birth and death) and their written works (including date of publication).
-Plus it shows World War I and World War II intervals (red and green dashed lines)
+Plus it shows World War I and World War II intervals (by red and green dashed lines)
 # What the input should look like
 On each line
   - **Author's name** 
