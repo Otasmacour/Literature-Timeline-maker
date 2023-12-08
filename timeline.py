@@ -22,6 +22,7 @@ def create_timeline():
     ax.axvline(x=1918, color='green', linestyle='--', linewidth=1)
     ax.axvline(x=1939, color='red', linestyle='--', linewidth=1)
     ax.axvline(x=1945, color='green', linestyle='--', linewidth=1)
+    ax.axvline(x=1989, color='purple', linestyle='--', linewidth=1)
     plt.grid(axis='x')
     plt.show()
 def draw_author_axis(ax, author_name, birth_year, death_year, books, i, minimum):
