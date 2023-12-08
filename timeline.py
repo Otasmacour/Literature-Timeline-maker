@@ -31,7 +31,7 @@ def draw_author_axis(ax, author_name, birth_year, death_year, books, i, minimum)
     ax.plot([birth_year, death_year], [i, i], color='black', linewidth=2)
     ax.text(birth_year, i, str(birth_year), verticalalignment='center', horizontalalignment='right', fontsize=8)
     ax.text(death_year, i, str(death_year), verticalalignment='center', horizontalalignment='left', fontsize=8)
-    ax.plot([birth_year-minimum, birth_year-2], [i, i], color='grey', linestyle='--', linewidth=1)
+    ax.plot([birth_year-minimum, birth_year-4], [i, i], color='grey', linestyle='--', linewidth=1)
     for j, (book_title, book_year) in enumerate(books, start=1):
         if j % 2 != 0: 
             ax.plot([book_year, book_year], [i, i + 0.1], color='red', linewidth=2)
